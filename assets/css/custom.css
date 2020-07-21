@@ -1,0 +1,17 @@
+.animasi{
+    animation: bounce 400ms infinite linear alternate;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-0.25em); }
+  }
+
+  [aos="fade"] {
+    opacity: 0;
+    transition-property: opacity;
+  }
+  
+  [aos="fade"].aos-animate {
+    opacity: 1;
+  }
